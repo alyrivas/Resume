@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Notable');
+body { 
+  background-color: lightgrey; 
+}
+.container { 
+width: 780px; 
+margin-left: 80px;
+}
+.box {
+  font-family: 'Notable';
+  margin-left: 9px; 
+  border: 5px solid;
+  width: 700px; 
+  background-color: grey ; 
+} 
+h1 {
+  color: purple;
+}
+h2  { 
+  color: purple; 
+}  
+h5  {
+  color: #1a1a00;
+  font-family: "Notable"
+}
+div { 
+  width: 100px;
+  border: 100px;
+  padding: 1px;
+  margin: 20px;
+} 
+.right { 
+  font-family: 'Notable'; 
+  color: black; 
+  width: 420px; 
+  float: right; 
+  margin-bottom: 0px; 
+}
+.tech-pic {
+  width: 400px; 
+  margin-top: 0px; 
+  height: 250px; 
+  border: 3px solid 
+} 
+.left { 
+font-family: 'Notable';
+font-size: 13px;
+font-style: italic; 
+color: black;
+width: 300px;
+height: 30px; 
+border: 5px solid;
+float: bottom left; 
+margin: 0px; 
+background-color: grey; 
+border: 1px solid;
+} 
+ul { 
+box-sizing: border-box;
+width: 18em;
+border-radious: 10em;
+margin: 0em;
+box-shadow: 0 0 3em rgba(0,0,0,0.8); 
+line-height: 1em;
+} 
+.threeD {
+  color: solid;
+  font-family: Notable; 
+  top: 50%;
+  left: 50%;
+  transform: translate( -20%, -40%);
+  font-size: .6em;
+  letter-spacing: 0.6em;
+  transition: 0.5s;
+  text-shadow:
+  1px 1px 0 black,
+  1px 2px 0 black, 
+  1px 3px 0 black, 
+  1px 4px 0 black,
+  1px 5px 0 black, 
+  1px 6px 0 black,
+  3px 9px 9px black; 
+  }
+.threeD:hover{
+  transition: 0.4s;
+  transform: scale(1.1)translate(-20%, -20%);
+  text-shadow:
+    1px -1px 0 black,
+    1px -2px 0 black, 
+    1px -3px 0 black,
+    1px -4px 0 black,
+    1px -5px 0 black,
+    5px -13px 15px black,
+    5px -13px 25px #808080;
+}
+
+.chip-pic { 
+width: 300px;
+height: 200px;
+float: right;
+border: 3px solid;
+  margin: 30px; 
+} 
